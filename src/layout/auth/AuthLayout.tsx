@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export const AuthLayout = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-gradient-to-br from-gray-50 via-white to-gray-100">
+    <div className="min-h-screen flex flex-col bg-linear-to-br from-gray-50 via-white to-gray-100">
       <main className="flex flex-1 items-center justify-center px-4 sm:px-6">
         <div className="w-full max-w-md space-y-6">
 
@@ -16,7 +16,7 @@ export const AuthLayout = () => {
             transition={{ duration: 0.3, ease: "easeOut" }}
             className="flex flex-col items-center text-center space-y-3"
           >
-            <Logo logoSize={220} align="center" />
+            <Logo size="xl" />
 
             <p className="text-sm sm:text-base text-gray-500 max-w-sm leading-relaxed">
               Plataforma inteligente para organizar, gestionar y escalar tus
