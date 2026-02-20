@@ -15,7 +15,7 @@ const sizeClasses = {
 };
 
 export const Logo = ({
-  logoSrc = "/logo.png",
+  logoSrc = "logo.png",
   size = "lg",
   subtitle,
   showText = false,
